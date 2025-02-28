@@ -1,3 +1,6 @@
+import numpy as np
+arr = np.array([5, 2, 8, 1, 3])
+arr2D = np.array([[3, 2, 1], [6, 5, 4]])
 # Sorting in ascending order (default)
 sorted_arr = np.sort(arr)
 print(sorted_arr) # Output: [1 2 3 5 8]
